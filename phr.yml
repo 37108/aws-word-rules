@@ -1,0 +1,4 @@
+version: 1
+rules:
+  - expected: EC2
+  - expected: DynamoDB
