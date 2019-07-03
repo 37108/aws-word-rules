@@ -1,4 +1,6 @@
 # aws-word-rules
+[![npm version](https://badge.fury.io/js/aws-word-rules.svg)](https://badge.fury.io/js/aws-word-rules)
+
 [textlint-rule-aws-spellcheck](https://github.com/37108/textlint-rule-aws-spellcheck)用のリポジトリ。  
 [phr.yml](phr.yml)にAWSの表記揺れしそうな用語一覧が辞書として登録してある。  
 それをtextlint用にjson形式で出力するためのライブラリ。  
