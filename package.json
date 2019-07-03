@@ -1,8 +1,8 @@
 {
   "name": "aws-word-rules",
-  "version": "0.9.0",
+  "version": "0.9.1",
   "description": "AWS Word Rule list for textlint",
-  "main": "index.js",
+  "main": "all.json",
   "files": [
     "all.json",
     "index.js"
