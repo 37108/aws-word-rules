@@ -1,4 +1,198 @@
 version: 1
 rules:
-  - expected: EC2
-  - expected: DynamoDB
+#-------------------------------------------------------------------------------
+# Networking
+#-------------------------------------------------------------------------------
+  - VPC
+  - API Gateway
+  - AWS Device Farm
+  - Route 53
+  - CloudFront
+  - CF
+  - App Mesh
+  - Cloud Map
+  - Direct Connect
+  - Global Accelerator
+  - AWS PrivateLink
+  - Transit Gateway
+  - VPN
+  - Elastic Load Balancing
+  - ELB
+  - Application Load Balancer
+  - ALB
+  - Network Load Balancer
+  - NLB
+  - Classic Load Balancer
+  - CLB
+
+#-------------------------------------------------------------------------------
+# Computing
+#-------------------------------------------------------------------------------
+  - EC2
+  - Auto Scaling
+  - Elastic Beanstalk
+  - EC2 Container Registry
+  - ECS
+  - EKS
+  - Fargate
+  - Batch
+  - Lightsail
+  - Lambda
+  - AWS SAM
+
+#-------------------------------------------------------------------------------
+# Database
+#-------------------------------------------------------------------------------
+  - Amazon Aurora
+  - RDS
+  - DynamoDB
+  - Redshift
+  - Amazon Managed Blockchain
+  - QLDB
+  - DocumentDB
+  - ElastiCache
+  - Neptune
+  - Timestream
+
+#-------------------------------------------------------------------------------
+# Storage
+#-------------------------------------------------------------------------------
+  - EBS
+  - S3
+  - S3 Glacier
+  - Glacier
+
+#-------------------------------------------------------------------------------
+# Application
+#-------------------------------------------------------------------------------
+  - Amazon MQ
+  - SQS
+  - SNS
+  - SES
+  - AppSync
+  - Step Functions
+  - AWS X-Ray
+  - AppStream
+  - AWS Amplify
+
+#-------------------------------------------------------------------------------
+# Analystics
+#-------------------------------------------------------------------------------
+  - Athena
+  - EMR
+  - CloudSearch
+  - Elasticsearch Service
+  - Kinesis
+  - Managed Streaming for Kafka
+  - QuickSight
+  - Clue
+  - Lake Formation
+#-------------------------------------------------------------------------------
+# Development
+#-------------------------------------------------------------------------------
+  - CodeStar
+  - Cloud9
+  - CodeBuild
+  - CodeCommit
+  - CodeDeploy
+  - CodePipeline
+  - Amazon Corretto
+
+#-------------------------------------------------------------------------------
+# Business
+#-------------------------------------------------------------------------------
+  - Amazon WorkMail
+  - Amazon WorkDocs
+  - Amazon WorkLink
+  - Amazon Chime
+
+#-------------------------------------------------------------------------------
+# IoT
+#-------------------------------------------------------------------------------
+  - FreeRTOS
+  - IoT 1-Click
+  - IoT Analytics
+  - IoT Button
+  - IoT Core
+  - IoT Device Defender
+  - IoT Events
+  - IoT Greengrass
+  - IoT SiteWise
+  - IoT Things Graph
+
+#-------------------------------------------------------------------------------
+# Other Services
+#-------------------------------------------------------------------------------
+  - Partner Device Catalog
+  - Amazon Connect
+  - Amazon Pinpoint
+  - AWS Outposts
+  - Amazon Sumerian
+  - Cost Explorer
+  - AWS Budgets
+  - Alexa for Business
+  - AWS CLI
+  - GameLift
+  - Lumberyard
+
+#-------------------------------------------------------------------------------
+# Machine Learning
+#-------------------------------------------------------------------------------
+  - SageMaker
+  - Amazon Comprehend
+  - Amazon Elastic Inference
+  - Amazon Forecast
+  - Amazon Lex
+  - Amazon Personalize
+  - Amazon Polly
+  - Amazon Rekognition
+  - Amazon SageMaker Ground Truth
+  - Amazon Textract
+  - Amazon Translate
+  - Amazon Transcribe
+  - AWS DeepLens
+  - AWS DeepRacer
+  - AWS Inferentia
+
+#-------------------------------------------------------------------------------
+# Management
+#-------------------------------------------------------------------------------
+  - CloudWatch
+  - CloudFormation
+  - CFn
+  - CloudTrail
+  - AWS Config
+  - Control Tower
+  - AWS License Manager
+  - AWS OpsWorks
+  - AWS Organizations
+  - Personal Health Dashboard
+  - Service Catalog
+  - Systems Manager
+  - Trusted Advisor
+  - Well-Architected Tool
+
+#-------------------------------------------------------------------------------
+# Media Service
+#-------------------------------------------------------------------------------
+  - Elastic Transcoder
+  - Kinesis Video Streams
+  - Elemental MediaConnect
+  - Elemental MediaConvert
+  - Elemental MediaLive
+  - Elemental MediaPackage
+  - Elemental MediaStore
+  - Elemental MediaTailor
+
+#-------------------------------------------------------------------------------
+# Migration
+#-------------------------------------------------------------------------------
+  - Application Discovery Service
+  - Database Migration Service
+  - DMS
+  - AWS DataSync
+  - AWS Server Migration Service
+  - Snowball
+  - Snowball Edge
+  - Snowmobile
+  - AWS Transfer for SFTP
