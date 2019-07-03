@@ -3,7 +3,7 @@ const fs = require('fs').promises
 const prh = require('prh')
 
 const build = () => {
-  const file = path.resolve(__dirname, 'phr.yml')
+  const file = path.resolve(__dirname, 'prh.yml')
   const config = prh.fromYAMLFilePath(file)
   const results = config.rules.map(rule => {
     const flag = rule.pattern.flags || rule.pattern.toString().match(/[gimuy]*$/)[0]

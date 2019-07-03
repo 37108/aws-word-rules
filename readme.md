@@ -2,7 +2,7 @@
 [![npm version](https://badge.fury.io/js/aws-word-rules.svg)](https://badge.fury.io/js/aws-word-rules)
 
 This is repo for [textlint-rule-aws-spellcheck](https://github.com/37108/textlint-rule-aws-spellcheck).  
-[phr.yml](phr.yml) is a file for library.
+[prh.yml](prh.yml) is a file for library.
 
 ## Usage
 ```
@@ -16,4 +16,4 @@ console.log(awsJson)
 
 ## Contribute
 Fork this repo and make Pull Request, or make Issues.
-If you want to add or change rules, check [prh](https://github.com/prh/prh) and modify [phr.yml](phr.yml).
+If you want to add or change rules, check [prh](https://github.com/prh/prh) and modify [prh.yml](prh.yml).
