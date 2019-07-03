@@ -1,1 +1,1 @@
-module.exports = require("all.json")
+module.exports = require('all.json')
