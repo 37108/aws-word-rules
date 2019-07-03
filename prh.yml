@@ -34,16 +34,19 @@ rules:
 #-------------------------------------------------------------------------------
 # Computing
 #-------------------------------------------------------------------------------
+  - Amazon Elastic Compute Cloud
   - EC2
   - Auto Scaling
   - Elastic Beanstalk
   - EC2 Container Registry
+  - Elastic Container Service
   - ECS
   - EKS
   - Fargate
-  - Batch
+  - AWS Batch
   - Lightsail
   - Lambda
+  - AWS Serverless Application Model
   - AWS SAM
 
 #-------------------------------------------------------------------------------
@@ -54,6 +57,7 @@ rules:
   - DynamoDB
   - Redshift
   - Amazon Managed Blockchain
+  - Quantum Ledger Database 
   - QLDB
   - DocumentDB
   - ElastiCache
