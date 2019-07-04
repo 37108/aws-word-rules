@@ -1,0 +1,15 @@
+version: 0.2
+env:
+  parameter-store:
+    NPM_TOKEN: "value"
+
+phase:
+  install:
+    runtime-versions:
+      nodejs: 10
+    commands:
+      - npm ci
+      - npm version
+  build:
+    commands:
+      - npm whoami
