@@ -10,7 +10,6 @@ phase:
     commands:
       - npm ci
       - echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" > ~/.npmrc
-      - npm version
   build:
     commands:
-      - npm whoami
+      - npm publish
