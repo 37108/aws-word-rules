@@ -12,4 +12,5 @@ phases:
       - echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" > ~/.npmrc
   build:
     commands:
+      - npm prepublish
       - npm publish
