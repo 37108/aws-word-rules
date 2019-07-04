@@ -1,7 +1,7 @@
 version: 0.2
 env:
   parameter-store:
-    NPM_TOKEN: "value"
+    NPM_TOKEN: "NPM_TOKEN"
 
 phase:
   install:
@@ -9,6 +9,7 @@ phase:
       nodejs: 10
     commands:
       - npm ci
+      - echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" > ~/.npmrc
       - npm version
   build:
     commands:
