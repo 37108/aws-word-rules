@@ -3,7 +3,7 @@ env:
   parameter-store:
     NPM_TOKEN: "NPM_TOKEN"
 
-phase:
+phases:
   install:
     runtime-versions:
       nodejs: 10
