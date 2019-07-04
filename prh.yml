@@ -57,7 +57,7 @@ rules:
   - DynamoDB
   - Redshift
   - Amazon Managed Blockchain
-  - Quantum Ledger Database 
+  - Quantum Ledger Database
   - QLDB
   - DocumentDB
   - ElastiCache
@@ -84,6 +84,12 @@ rules:
   - AWS X-Ray
   - AppStream
   - AWS Amplify
+  - Cognito
+  - Cognito Sync
+  - Cognito ID プール
+  - Cognito ID Pool
+  - Cognito ユーザープール
+  - Cognito User Pool
 
 #-------------------------------------------------------------------------------
 # Analystics
@@ -141,6 +147,7 @@ rules:
   - Cost Explorer
   - AWS Budgets
   - Alexa for Business
+  - Alexa
   - AWS CLI
   - GameLift
   - Lumberyard
@@ -163,6 +170,21 @@ rules:
   - AWS DeepLens
   - AWS DeepRacer
   - AWS Inferentia
+
+#-------------------------------------------------------------------------------
+# Management
+#-------------------------------------------------------------------------------
+  - Identity and Access Management
+  - IAM
+  - IAM Policy
+  - IAM User
+  - IAM Policy
+  - IAM Group
+  - IAM Role
+  - STS
+  - Security Token Service
+  - MFA
+  - AssumeRole
 
 #-------------------------------------------------------------------------------
 # Management
