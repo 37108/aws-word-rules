@@ -1,6 +1,6 @@
 {
   "name": "aws-word-rules",
-  "version": "1.1.0",
+  "version": "1.1.2",
   "description": "AWS Word Rule list for textlint",
   "main": "all.json",
   "files": [
@@ -10,7 +10,7 @@
   "scripts": {
     "prettier": "prettier --write prettier *.js",
     "build": "node build.js",
-    "clean": "rm -f all.json",
+    "clean": "rimraf all.json",
     "prepublish": "npm run clean && npm run build"
   },
   "repository": {
@@ -24,9 +24,10 @@
   },
   "homepage": "https://github.com/37108/aws-word-rules",
   "devDependencies": {
+    "prettier": "^1.18.2",
     "prh": "^5.4.3",
-    "textlint": "^11.2.5",
-    "prettier": "^1.18.2"
+    "rimraf": "^2.6.3",
+    "textlint": "^11.2.5"
   },
   "dependencies": {},
   "prettier": {
