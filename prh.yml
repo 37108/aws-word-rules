@@ -3,228 +3,227 @@ rules:
 #-------------------------------------------------------------------------------
 # General
 #-------------------------------------------------------------------------------
-  - AWS
-  - Amazon Web Service
+  - expected: AWS
+  - expected: Amazon Web Service
 #-------------------------------------------------------------------------------
 # Networking
 #-------------------------------------------------------------------------------
-  - Virtual Private Cloud
-  - VPC
-  - API Gateway
-  - AWS Device Farm
-  - Route 53
-  - CloudFront
-  - CF
-  - App Mesh
-  - Cloud Map
-  - Direct Connect
-  - Global Accelerator
-  - AWS PrivateLink
-  - Transit Gateway
-  - VPN
-  - Elastic Load Balancing
-  - ELB
-  - Application Load Balancer
-  - ALB
-  - Network Load Balancer
-  - NLB
-  - Classic Load Balancer
-  - CLB
+  - expected: Virtual Private Cloud
+  - expected: VPC
+  - expected: API Gateway
+  - expected: AWS Device Farm
+  - expected: Route 53
+  - expected: CloudFront
+  - expected: CF
+  - expected: App Mesh
+  - expected: Cloud Map
+  - expected: Direct Connect
+  - expected: Global Accelerator
+  - expected: AWS PrivateLink
+  - expected: Transit Gateway
+  - expected: VPN
+  - expected: Elastic Load Balancing
+  - expected: ELB
+  - expected: Application Load Balancer
+  - expected: ALB
+  - expected: Network Load Balancer
+  - expected: NLB
+  - expected: Classic Load Balancer
+  - expected: CLB
 
 #-------------------------------------------------------------------------------
 # Computing
 #-------------------------------------------------------------------------------
-  - Amazon Elastic Compute Cloud
-  - EC2
-  - Auto Scaling
-  - Elastic Beanstalk
-  - EC2 Container Registry
-  - Elastic Container Service
-  - ECS
-  - EKS
-  - Fargate
-  - AWS Batch
-  - Lightsail
-  - Lambda
-  - AWS Serverless Application Model
-  - AWS SAM
+  - expected: Amazon Elastic Compute Cloud
+  - expected: EC2
+  - expected: Auto Scaling
+  - expected: Elastic Beanstalk
+  - expected: EC2 Container Registry
+  - expected: Elastic Container Service
+  - expected: ECS
+  - expected: EKS
+  - expected: Fargate
+  - expected: AWS Batch
+  - expected: Lightsail
+  - expected: Lambda
+  - expected: AWS Serverless Application Model
+  - expected: AWS SAM
 
 #-------------------------------------------------------------------------------
 # Database
 #-------------------------------------------------------------------------------
-  - Amazon Aurora
-  - RDS
-  - DynamoDB
-  - Redshift
-  - Amazon Managed Blockchain
-  - Quantum Ledger Database
-  - QLDB
-  - DocumentDB
-  - ElastiCache
-  - Neptune
-  - Timestream
+  - expected: Amazon Aurora
+  - expected: RDS
+  - expected: DynamoDB
+  - expected: Redshift
+  - expected: Amazon Managed Blockchain
+  - expected: Quantum Ledger Database
+  - expected: QLDB
+  - expected: DocumentDB
+  - expected: ElastiCache
+  - expected: Neptune
+  - expected: Timestream
 
 #-------------------------------------------------------------------------------
 # Storage
 #-------------------------------------------------------------------------------
-  - EBS
-  - S3
-  - S3 Glacier
-  - Glacier
+  - expected: EBS
+  - expected: S3
+  - expected: S3 Glacier
+  - expected: Glacier
 
 #-------------------------------------------------------------------------------
 # Application
 #-------------------------------------------------------------------------------
-  - Amazon MQ
-  - SQS
-  - SNS
-  - SES
-  - AppSync
-  - Step Functions
-  - AWS X-Ray
-  - AppStream
-  - AWS Amplify
-  - Cognito
-  - Cognito Sync
-  - Cognito ID プール
-  - Cognito ID Pool
-  - Cognito ユーザープール
-  - Cognito User Pool
+  - expected: Amazon MQ
+  - expected: SQS
+  - expected: SNS
+  - expected: SES
+  - expected: AppSync
+  - expected: Step Functions
+  - expected: AWS X-Ray
+  - expected: AppStream
+  - expected: AWS Amplify
+  - expected: Cognito
+  - expected: Cognito Sync
+  - expected: Cognito ID プール
+  - expected: Cognito ID Pool
+  - expected: Cognito ユーザープール
+  - expected: Cognito User Pool
 
 #-------------------------------------------------------------------------------
 # Analystics
 #-------------------------------------------------------------------------------
-  - Athena
-  - EMR
-  - CloudSearch
-  - Elasticsearch Service
-  - Kinesis
-  - Managed Streaming for Kafka
-  - QuickSight
-  - Clue
-  - Lake Formation
+  - expected: Athena
+  - expected: EMR
+  - expected: CloudSearch
+  - expected: Elasticsearch Service
+  - expected: Kinesis
+  - expected: Managed Streaming for Kafka
+  - expected: QuickSight
+  - expected: Clue
+  - expected: Lake Formation
 #-------------------------------------------------------------------------------
 # Development
 #-------------------------------------------------------------------------------
-  - CodeStar
-  - Cloud9
-  - CodeBuild
-  - CodeCommit
-  - CodeDeploy
-  - CodePipeline
-  - Amazon Corretto
+  - expected: CodeStar
+  - expected: Cloud9
+  - expected: CodeBuild
+  - expected: CodeCommit
+  - expected: CodeDeploy
+  - expected: CodePipeline
+  - expected: Amazon Corretto
 
 #-------------------------------------------------------------------------------
 # Business
 #-------------------------------------------------------------------------------
-  - Amazon WorkMail
-  - Amazon WorkDocs
-  - Amazon WorkLink
-  - Amazon Chime
+  - expected: Amazon WorkMail
+  - expected: Amazon WorkDocs
+  - expected: Amazon WorkLink
+  - expected: Amazon Chime
 
 #-------------------------------------------------------------------------------
 # IoT
 #-------------------------------------------------------------------------------
-  - FreeRTOS
-  - IoT 1-Click
-  - IoT Analytics
-  - IoT Button
-  - IoT Core
-  - IoT Device Defender
-  - IoT Events
-  - IoT Greengrass
-  - IoT SiteWise
-  - IoT Things Graph
+  - expected: FreeRTOS
+  - expected: IoT 1-Click
+  - expected: IoT Analytics
+  - expected: IoT Button
+  - expected: IoT Core
+  - expected: IoT Device Defender
+  - expected: IoT Events
+  - expected: IoT Greengrass
+  - expected: IoT SiteWise
+  - expected: IoT Things Graph
 
 #-------------------------------------------------------------------------------
 # Other Services
 #-------------------------------------------------------------------------------
-  - Partner Device Catalog
-  - Amazon Connect
-  - Amazon Pinpoint
-  - AWS Outposts
-  - Amazon Sumerian
-  - Cost Explorer
-  - AWS Budgets
-  - Alexa for Business
-  - Alexa
-  - AWS CLI
-  - GameLift
-  - Lumberyard
+  - expected: Partner Device Catalog
+  - expected: Amazon Connect
+  - expected: Amazon Pinpoint
+  - expected: AWS Outposts
+  - expected: Amazon Sumerian
+  - expected: Cost Explorer
+  - expected: AWS Budgets
+  - expected: Alexa for Business
+  - expected: Alexa
+  - expected: AWS CLI
+  - expected: GameLift
+  - expected: Lumberyard
 
 #-------------------------------------------------------------------------------
 # Machine Learning
 #-------------------------------------------------------------------------------
-  - SageMaker
-  - Amazon Comprehend
-  - Amazon Elastic Inference
-  - Amazon Forecast
-  - Amazon Lex
-  - Amazon Personalize
-  - Amazon Polly
-  - Amazon Rekognition
-  - Amazon SageMaker Ground Truth
-  - Amazon Textract
-  - Amazon Translate
-  - Amazon Transcribe
-  - AWS DeepLens
-  - AWS DeepRacer
-  - AWS Inferentia
+  - expected: SageMaker
+  - expected: Amazon Comprehend
+  - expected: Amazon Elastic Inference
+  - expected: Amazon Forecast
+  - expected: Amazon Lex
+  - expected: Amazon Personalize
+  - expected: Amazon Polly
+  - expected: Amazon Rekognition
+  - expected: Amazon SageMaker Ground Truth
+  - expected: Amazon Textract
+  - expected: Amazon Translate
+  - expected: Amazon Transcribe
+  - expected: AWS DeepLens
+  - expected: AWS DeepRacer
+  - expected: AWS Inferentia
+
+#-------------------------------------------------------------------------------
+# Management
+#------------------------c-------------------------------------------------------
+  - expected: Identity and Access Management
+  - expected: IAM
+  - expected: IAM policies
+  - expected: IAM user
+  - expected: IAM group
+  - expected: IAM role
+  - expected: STS
+  - expected: Security Token Service
+  - expected: MFA
+  - expected: AssumeRole
 
 #-------------------------------------------------------------------------------
 # Management
 #-------------------------------------------------------------------------------
-  - Identity and Access Management
-  - IAM
-  - IAM Policy
-  - IAM User
-  - IAM Policy
-  - IAM Group
-  - IAM Role
-  - STS
-  - Security Token Service
-  - MFA
-  - AssumeRole
-
-#-------------------------------------------------------------------------------
-# Management
-#-------------------------------------------------------------------------------
-  - CloudWatch
-  - CloudFormation
-  - CFn
-  - CloudTrail
-  - AWS Config
-  - Control Tower
-  - AWS License Manager
-  - AWS OpsWorks
-  - AWS Organizations
-  - Personal Health Dashboard
-  - Service Catalog
-  - Systems Manager
-  - Trusted Advisor
-  - Well-Architected Tool
+  - expected: CloudWatch
+  - expected: CloudFormation
+  - expected: CFn
+  - expected: CloudTrail
+  - expected: AWS Config
+  - expected: Control Tower
+  - expected: AWS License Manager
+  - expected: AWS OpsWorks
+  - expected: AWS Organizations
+  - expected: Personal Health Dashboard
+  - expected: Service Catalog
+  - expected: Systems Manager
+  - expected: Trusted Advisor
+  - expected: Well-Architected Tool
 
 #-------------------------------------------------------------------------------
 # Media Service
 #-------------------------------------------------------------------------------
-  - Elastic Transcoder
-  - Kinesis Video Streams
-  - Elemental MediaConnect
-  - Elemental MediaConvert
-  - Elemental MediaLive
-  - Elemental MediaPackage
-  - Elemental MediaStore
-  - Elemental MediaTailor
+  - expected: Elastic Transcoder
+  - expected: Kinesis Video Streams
+  - expected: Elemental MediaConnect
+  - expected: Elemental MediaConvert
+  - expected: Elemental MediaLive
+  - expected: Elemental MediaPackage
+  - expected: Elemental MediaStore
+  - expected: Elemental MediaTailor
 
 #-------------------------------------------------------------------------------
 # Migration
 #-------------------------------------------------------------------------------
-  - Application Discovery Service
-  - Database Migration Service
-  - DMS
-  - AWS DataSync
-  - AWS Server Migration Service
-  - Snowball
-  - Snowball Edge
-  - Snowmobile
-  - AWS Transfer for SFTP
+  - expected: Application Discovery Service
+  - expected: Database Migration Service
+  - expected: DMS
+  - expected: AWS DataSync
+  - expected: AWS Server Migration Service
+  - expected: Snowball
+  - expected: Snowball Edge
+  - expected: Snowmobile
+  - expected: AWS Transfer for SFTP
