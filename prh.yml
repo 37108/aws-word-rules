@@ -173,7 +173,7 @@ rules:
 
 #-------------------------------------------------------------------------------
 # Management
-#------------------------c-------------------------------------------------------
+#--------------------------------------------------------------------------------
   - expected: Identity and Access Management
   - expected: IAM
   - expected: IAM policies
@@ -184,7 +184,14 @@ rules:
   - expected: Security Token Service
   - expected: MFA
   - expected: AssumeRole
-
+  - expected: IAM ユーザー
+    patterns:
+      - IAM ユーザ
+      - IAMユーザ
+  - expected: IAM グループ
+    pattern: IAMグループ
+  - expected: IAM ロール
+    pattern: IAMロール
 #-------------------------------------------------------------------------------
 # Management
 #-------------------------------------------------------------------------------
