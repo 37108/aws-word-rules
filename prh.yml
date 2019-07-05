@@ -4,25 +4,48 @@ rules:
 # General
 #-------------------------------------------------------------------------------
   - expected: AWS
-  - expected: Amazon Web Service
+  - expected: Amazon Web Services
+  - expected: アマゾン ウェブ サービス
+  - expected: eu-north-1
+  - expected: ap-south-1
+  - expected: eu-west-3
+  - expected: eu-west-2
+  - expected: eu-west-1
+  - expected: ap-northeast-2
+  - expected: ap-northeast-1
+  - expected: sa-east-1
+  - expected: ca-central-1
+  - expected: ap-southeast-1
+  - expected: ap-southeast-2
+  - expected: eu-central-1
+  - expected: us-east-1
+  - expected: us-east-2
+  - expected: us-west-1
+  - expected: us-west-2
+  - expected: DDoS
+  - expected: WAF
 #-------------------------------------------------------------------------------
 # Networking
 #-------------------------------------------------------------------------------
   - expected: Virtual Private Cloud
   - expected: VPC
   - expected: API Gateway
+  - expected: Egress-Only Internet Gateway
+  - expected: Nat Gateway
+  - expected: NAT Insntance
   - expected: AWS Device Farm
   - expected: Route 53
   - expected: CloudFront
-  - expected: CF
   - expected: App Mesh
   - expected: Cloud Map
   - expected: Direct Connect
   - expected: Global Accelerator
   - expected: AWS PrivateLink
-  - expected: Transit Gateway
   - expected: VPN
+  - expected: Transit Gateway
+  - expected: Customer Gateway
   - expected: Elastic Load Balancing
+    pattern: Elastic Load Balancer
   - expected: ELB
   - expected: Application Load Balancer
   - expected: ALB
@@ -30,12 +53,17 @@ rules:
   - expected: NLB
   - expected: Classic Load Balancer
   - expected: CLB
+  - expected: Egress-Only インターネットゲートウェイ
+  - expected: NAT ゲートウェイ
+  - expected: NAT インスタンス
+  - expected: カスタマーゲートウェイ
 
 #-------------------------------------------------------------------------------
 # Computing
 #-------------------------------------------------------------------------------
   - expected: Amazon Elastic Compute Cloud
   - expected: EC2
+  - expected: EIP
   - expected: Auto Scaling
   - expected: Elastic Beanstalk
   - expected: EC2 Container Registry
@@ -48,6 +76,8 @@ rules:
   - expected: Lambda
   - expected: AWS Serverless Application Model
   - expected: AWS SAM
+  - expected: Amazon Linux 2
+  - expected: Amazon Linux
 
 #-------------------------------------------------------------------------------
 # Database
@@ -68,6 +98,8 @@ rules:
 # Storage
 #-------------------------------------------------------------------------------
   - expected: EBS
+  - expected: EFS
+  - expected: Storage Gateway
   - expected: S3
   - expected: S3 Glacier
   - expected: Glacier
@@ -86,10 +118,17 @@ rules:
   - expected: AWS Amplify
   - expected: Cognito
   - expected: Cognito Sync
-  - expected: Cognito ID プール
   - expected: Cognito ID Pool
-  - expected: Cognito ユーザープール
   - expected: Cognito User Pool
+  - expected: Cognito ID プール
+    patterns:
+      - CognitoID プール
+      - CognitoIDプール
+  - expected: Cognito ユーザープール
+    patterns:
+      - Cognito ユーザ
+      - Cognitoユーザ
+      - Cognitoユーザー
 
 #-------------------------------------------------------------------------------
 # Analystics
@@ -103,6 +142,7 @@ rules:
   - expected: QuickSight
   - expected: Clue
   - expected: Lake Formation
+
 #-------------------------------------------------------------------------------
 # Development
 #-------------------------------------------------------------------------------
@@ -113,7 +153,11 @@ rules:
   - expected: CodeDeploy
   - expected: CodePipeline
   - expected: Amazon Corretto
-
+  - expected: buildspec.yml
+  - expected: AppSpec File
+  - expected: appspec.yml
+  - expected: appspec.yaml
+  - expected: AppSpec ファイル
 #-------------------------------------------------------------------------------
 # Business
 #-------------------------------------------------------------------------------
@@ -172,7 +216,7 @@ rules:
   - expected: AWS Inferentia
 
 #-------------------------------------------------------------------------------
-# Management
+# Security
 #--------------------------------------------------------------------------------
   - expected: Identity and Access Management
   - expected: IAM
@@ -184,8 +228,14 @@ rules:
   - expected: Security Token Service
   - expected: MFA
   - expected: AssumeRole
+  - expected: IAM ポリシー
+    patterns:
+      - IAMポリシー
+      - IAM ポリシ
+      - IAMポリシ
   - expected: IAM ユーザー
     patterns:
+      - IAMユーザー
       - IAM ユーザ
       - IAMユーザ
   - expected: IAM グループ
@@ -196,6 +246,10 @@ rules:
 # Management
 #-------------------------------------------------------------------------------
   - expected: CloudWatch
+  - expected: CloudWatch Alarm
+  - expected: CloudWatch Dashboard
+  - expected: CloudWatch Metric
+  - expected: CloudWatch Agent
   - expected: CloudFormation
   - expected: CFn
   - expected: CloudTrail
@@ -209,6 +263,12 @@ rules:
   - expected: Systems Manager
   - expected: Trusted Advisor
   - expected: Well-Architected Tool
+  - expected: AWS Budgets
+    pattern: AWS Budget
+  - expected: CloudWatch アラーム
+  - expected: CloudWatch ダッシュボード
+  - expected: CloudWatch メトリクス
+  - expected: CloudWatch エージェント
 
 #-------------------------------------------------------------------------------
 # Media Service
